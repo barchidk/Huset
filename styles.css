@@ -1,0 +1,99 @@
+#posts {
+    padding: 2rem;
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 60px;
+    margin-bottom: 60px;
+}
+
+body{
+    background-color: #D8EED5;
+     height: 125vh;
+    margin-top: 80px;
+    padding: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    color: #EC282C;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero{
+    display: inherit;
+}
+
+/*
+
+
+main {
+    color: white;
+}
+
+header {
+    background-color: #D8EED5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #EC282C;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2{
+    color: #EC282C;
+    font-size: 150px;
+    position: fixed;
+    left: 300px;
+}
+
+img {
+    position: relative;
+    left: 600px;
+    bottom: 700px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
